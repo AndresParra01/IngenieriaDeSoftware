@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IngenieriaParcial3.MainPage"
+             Title="Ciclo rutas seguras"
+             BackgroundColor="GreenYellow">
+    
+
+    <StackLayout Orientation="Vertical">
+        <!-- Place new controls here -->
+        <Image Source="Logo.png"/>
+
+        <Button
+            x:Name="Consulta1"
+            Text="Consultar ciclo rutas"
+            TextColor="White"
+            VerticalOptions="Center"
+            HorizontalOptions="Fill"
+            BackgroundColor="#349BFF"/>
+
+        <Button
+            x:Name="Consulta2"
+            Text="Consultar puntos EnCicla"
+            TextColor="White"
+            VerticalOptions="Center"
+            HorizontalOptions="Fill"
+            BackgroundColor="#349BFF"/>
+
+        <Button
+            x:Name="Consulta3"
+            Text="Consultar accidentabilidad"
+            TextColor="White"
+            VerticalOptions="Center"
+            HorizontalOptions="Fill"
+            BackgroundColor="#349BFF"/>
+
+        <Label
+           x:Name="Texto"
+           Text="Bienvenido!" 
+           HorizontalOptions="Center"
+           VerticalOptions="EndAndExpand"
+           BackgroundColor="LawnGreen"/>
+    </StackLayout>
+
+</ContentPage>
